@@ -6,7 +6,7 @@ class QuestionsController < ApplicationController
   def answer
     @ask = params[:ask]
     if @ask == "I´m going to work"
-      @answer = "Great"
+      @answer = "Great!!!"
     elsif @ask == "Can I go shopping?"
       @answer = "Silly question, get dressed and go to work!."
     else @ask == "I come down with the flu"
